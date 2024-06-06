@@ -39,7 +39,7 @@ jobs:
       if: success() || failure()
       with:
         name: Generate Result
-        path: report/index.json
+        path: ${GITHUB_WORKSPACE}/report/index.json
         reporter: mochawesome-json
     
         
