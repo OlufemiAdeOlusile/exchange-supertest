@@ -25,6 +25,7 @@ jobs:
         docker run --name my-app \
          -e API_KEY=${{ secrets.API_KEY }} \
          -e BASE_URL=${{ secrets.BASE_URL }} \
+         -v ${GITHUB_WORKSPACE}/report:/app/report \
          my-app:latest 
 
     - name: Clean up Docker
