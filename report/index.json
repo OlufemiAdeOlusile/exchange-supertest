@@ -1,0 +1,401 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-06-06T13:20:46.433Z",
+    "end": "2024-06-06T13:20:47.399Z",
+    "duration": 966,
+    "testsRegistered": 8,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d0c45fd5-c9a2-4f26-bfb8-9e80eaeca438",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bb6ff32a-f4be-4434-aadc-be9cf589b23b",
+          "title": "Exchange Rates API",
+          "fullFile": "/Users/olufemiade-olusile/Desktop/api-test/src/test/latest.spec.ts",
+          "file": "/src/test/latest.spec.ts",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "76375ace-62d2-41c4-9054-47d9e5ddd6c3",
+              "title": "Error Handling",
+              "fullFile": "/Users/olufemiade-olusile/Desktop/api-test/src/test/latest.spec.ts",
+              "file": "/src/test/latest.spec.ts",
+              "beforeHooks": [
+                {
+                  "title": "\"before all\" hook in \"Error Handling\"",
+                  "fullTitle": "Exchange Rates API Error Handling \"before all\" hook in \"Error Handling\"",
+                  "timedOut": false,
+                  "duration": 256,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "",
+                  "err": {},
+                  "uuid": "13f04e9e-5c43-49cb-bd6a-44a123a95f10",
+                  "parentUUID": "76375ace-62d2-41c4-9054-47d9e5ddd6c3",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should handle incorrect API keys with an error",
+                  "fullTitle": "Exchange Rates API Error Handling should handle incorrect API keys with an error",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "\"Response: {\\n    \\\"error\\\": {\\n        \\\"code\\\": \\\"invalid_access_key\\\",\\n        \\\"message\\\": \\\"You have not supplied a valid API Access Key.\\\"\\n    }\\n}\"",
+                  "code": "",
+                  "err": {},
+                  "uuid": "56494177-796f-4721-8206-46d75b18bc80",
+                  "parentUUID": "76375ace-62d2-41c4-9054-47d9e5ddd6c3",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "56494177-796f-4721-8206-46d75b18bc80"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            },
+            {
+              "uuid": "c6efd276-34ff-4528-8d0b-e0002107a6c4",
+              "title": "Successful Responses",
+              "fullFile": "/Users/olufemiade-olusile/Desktop/api-test/src/test/latest.spec.ts",
+              "file": "/src/test/latest.spec.ts",
+              "beforeHooks": [
+                {
+                  "title": "\"before all\" hook in \"Successful Responses\"",
+                  "fullTitle": "Exchange Rates API Successful Responses \"before all\" hook in \"Successful Responses\"",
+                  "timedOut": false,
+                  "duration": 257,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "",
+                  "err": {},
+                  "uuid": "71679e62-a7a5-4dd8-b1cf-aa5772e70960",
+                  "parentUUID": "c6efd276-34ff-4528-8d0b-e0002107a6c4",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return exchange rates for all currencies with base EUR",
+                  "fullTitle": "Exchange Rates API Successful Responses should return exchange rates for all currencies with base EUR",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "\"Response: {\\n    \\\"success\\\": true,\\n    \\\"timestamp\\\": 1717680005,\\n    \\\"base\\\": \\\"EUR\\\",\\n    \\\"date\\\": \\\"2024-06-06\\\",\\n    \\\"rates\\\": {\\n        \\\"AED\\\": 3.995008,\\n        \\\"AFN\\\": 76.772884,\\n        \\\"ALL\\\": 100.155946,\\n        \\\"AMD\\\": 421.638266,\\n        \\\"ANG\\\": 1.961296,\\n        \\\"AOA\\\": 929.42275,\\n        \\\"ARS\\\": 977.279491,\\n        \\\"AUD\\\": 1.639453,\\n        \\\"AWG\\\": 1.95782,\\n        \\\"AZN\\\": 1.850033,\\n        \\\"BAM\\\": 1.956893,\\n        \\\"BBD\\\": 2.196727,\\n        \\\"BDT\\\": 127.811394,\\n        \\\"BGN\\\": 1.956351,\\n        \\\"BHD\\\": 0.409969,\\n        \\\"BIF\\\": 3126.646506,\\n        \\\"BMD\\\": 1.087678,\\n        \\\"BND\\\": 1.466019,\\n        \\\"BOB\\\": 7.520166,\\n        \\\"BRL\\\": 5.74718,\\n        \\\"BSD\\\": 1.088308,\\n        \\\"BTC\\\": 0.00001531013,\\n        \\\"BTN\\\": 90.842143,\\n        \\\"BWP\\\": 14.989373,\\n        \\\"BYN\\\": 3.561389,\\n        \\\"BYR\\\": 21318.48024,\\n        \\\"BZD\\\": 2.193625,\\n        \\\"CAD\\\": 1.491043,\\n        \\\"CDF\\\": 3072.688892,\\n        \\\"CHF\\\": 0.970531,\\n        \\\"CLF\\\": 0.035956,\\n        \\\"CLP\\\": 992.168648,\\n        \\\"CNY\\\": 7.880988,\\n        \\\"CNH\\\": 7.897513,\\n        \\\"COP\\\": 4281.56659,\\n        \\\"CRC\\\": 575.221312,\\n        \\\"CUC\\\": 1.087678,\\n        \\\"CUP\\\": 28.823455,\\n        \\\"CVE\\\": 110.326627,\\n        \\\"CZK\\\": 24.620452,\\n        \\\"DJF\\\": 193.758231,\\n        \\\"DKK\\\": 7.459467,\\n        \\\"DOP\\\": 64.55606,\\n        \\\"DZD\\\": 146.153206,\\n        \\\"EGP\\\": 51.662178,\\n        \\\"ERN\\\": 16.315163,\\n        \\\"ETB\\\": 62.572264,\\n        \\\"EUR\\\": 1,\\n        \\\"FJD\\\": 2.457009,\\n        \\\"FKP\\\": 0.865899,\\n        \\\"GBP\\\": 0.852076,\\n        \\\"GEL\\\": 3.029204,\\n        \\\"GGP\\\": 0.865899,\\n        \\\"GHS\\\": 16.214983,\\n        \\\"GIP\\\": 0.865899,\\n        \\\"GMD\\\": 73.690049,\\n        \\\"GNF\\\": 9371.234656,\\n        \\\"GTQ\\\": 8.455723,\\n        \\\"GYD\\\": 227.80725,\\n        \\\"HKD\\\": 8.494599,\\n        \\\"HNL\\\": 26.886018,\\n        \\\"HRK\\\": 7.591942,\\n        \\\"HTG\\\": 144.440683,\\n        \\\"HUF\\\": 390.610573,\\n        \\\"IDR\\\": 17691.456254,\\n        \\\"ILS\\\": 4.062182,\\n        \\\"IMP\\\": 0.865899,\\n        \\\"INR\\\": 90.824774,\\n        \\\"IQD\\\": 1425.596321,\\n        \\\"IRR\\\": 45777.631142,\\n        \\\"ISK\\\": 149.74055,\\n        \\\"JEP\\\": 0.865899,\\n        \\\"JMD\\\": 169.224527,\\n        \\\"JOD\\\": 0.770732,\\n        \\\"JPY\\\": 169.99258,\\n        \\\"KES\\\": 141.6703,\\n        \\\"KGS\\\": 94.955666,\\n        \\\"KHR\\\": 4469.496606,\\n        \\\"KMF\\\": 492.582014,\\n        \\\"KPW\\\": 978.909478,\\n        \\\"KRW\\\": 1488.98736,\\n        \\\"KWD\\\": 0.333275,\\n        \\\"KYD\\\": 0.906907,\\n        \\\"KZT\\\": 486.231603,\\n        \\\"LAK\\\": 23426.978328,\\n        \\\"LBP\\\": 97451.88744,\\n        \\\"LKR\\\": 329.424012,\\n        \\\"LRD\\\": 211.0679,\\n        \\\"LSL\\\": 20.652936,\\n        \\\"LTL\\\": 3.211629,\\n        \\\"LVL\\\": 0.657925,\\n        \\\"LYD\\\": 5.26294,\\n        \\\"MAD\\\": 10.763512,\\n        \\\"MDL\\\": 19.174711,\\n        \\\"MGA\\\": 4867.763827,\\n        \\\"MKD\\\": 61.654439,\\n        \\\"MMK\\\": 2986.37085,\\n        \\\"MNT\\\": 3752.487347,\\n        \\\"MOP\\\": 8.75379,\\n        \\\"MRU\\\": 42.635816,\\n        \\\"MUR\\\": 50.207114,\\n        \\\"MVR\\\": 16.761151,\\n        \\\"MWK\\\": 1886.853973,\\n        \\\"MXN\\\": 19.153839,\\n        \\\"MYR\\\": 5.105599,\\n        \\\"MZN\\\": 69.071266,\\n        \\\"NAD\\\": 20.652936,\\n        \\\"NGN\\\": 1627.405598,\\n        \\\"NIO\\\": 40.062378,\\n        \\\"NOK\\\": 11.53449,\\n        \\\"NPR\\\": 145.347189,\\n        \\\"NZD\\\": 1.761554,\\n        \\\"OMR\\\": 0.418718,\\n        \\\"PAB\\\": 1.088203,\\n        \\\"PEN\\\": 4.073275,\\n        \\\"PGK\\\": 4.236366,\\n        \\\"PHP\\\": 63.756368,\\n        \\\"PKR\\\": 303.511638,\\n        \\\"PLN\\\": 4.302445,\\n        \\\"PYG\\\": 8188.574036,\\n        \\\"QAR\\\": 3.969517,\\n        \\\"RON\\\": 4.976773,\\n        \\\"RSD\\\": 117.086317,\\n        \\\"RUB\\\": 96.801958,\\n        \\\"RWF\\\": 1414.89034,\\n        \\\"SAR\\\": 4.07946,\\n        \\\"SBD\\\": 9.222112,\\n        \\\"SCR\\\": 14.591217,\\n        \\\"SDG\\\": 637.378694,\\n        \\\"SEK\\\": 11.317557,\\n        \\\"SGD\\\": 1.466739,\\n        \\\"SHP\\\": 1.374226,\\n        \\\"SLE\\\": 24.850499,\\n        \\\"SLL\\\": 22808.055685,\\n        \\\"SOS\\\": 621.947412,\\n        \\\"SRD\\\": 34.631107,\\n        \\\"STD\\\": 22512.729547,\\n        \\\"SVC\\\": 9.522319,\\n        \\\"SYP\\\": 2732.822351,\\n        \\\"SZL\\\": 20.648534,\\n        \\\"THB\\\": 39.754468,\\n        \\\"TJS\\\": 11.65511,\\n        \\\"TMT\\\": 3.806871,\\n        \\\"TND\\\": 3.386292,\\n        \\\"TOP\\\": 2.560665,\\n        \\\"TRY\\\": 35.040728,\\n        \\\"TTD\\\": 7.363113,\\n        \\\"TWD\\\": 35.14501,\\n        \\\"TZS\\\": 2849.715204,\\n        \\\"UAH\\\": 43.690905,\\n        \\\"UGX\\\": 4128.306021,\\n        \\\"USD\\\": 1.087678,\\n        \\\"UYU\\\": 42.383675,\\n        \\\"UZS\\\": 13794.705552,\\n        \\\"VEF\\\": 3940169.113442,\\n        \\\"VES\\\": 39.677328,\\n        \\\"VND\\\": 27656.92124,\\n        \\\"VUV\\\": 129.131245,\\n        \\\"WST\\\": 3.048861,\\n        \\\"XAF\\\": 656.323614,\\n        \\\"XAG\\\": 0.035917,\\n        \\\"XAU\\\": 0.000462,\\n        \\\"XCD\\\": 2.939503,\\n        \\\"XDR\\\": 0.822359,\\n        \\\"XOF\\\": 656.323614,\\n        \\\"XPF\\\": 119.331742,\\n        \\\"YER\\\": 272.300101,\\n        \\\"ZAR\\\": 20.646836,\\n        \\\"ZMK\\\": 9790.409685,\\n        \\\"ZMW\\\": 28.593841,\\n        \\\"ZWL\\\": 350.231732\\n    }\\n}\"",
+                  "code": "",
+                  "err": {},
+                  "uuid": "c8ab1f70-a70d-45c9-839a-b98c62f9f3e0",
+                  "parentUUID": "c6efd276-34ff-4528-8d0b-e0002107a6c4",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should verify the rate type for each currency is a number",
+                  "fullTitle": "Exchange Rates API Successful Responses should verify the rate type for each currency is a number",
+                  "timedOut": false,
+                  "duration": 4,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "\"Response: {\\n    \\\"success\\\": true,\\n    \\\"timestamp\\\": 1717680005,\\n    \\\"base\\\": \\\"EUR\\\",\\n    \\\"date\\\": \\\"2024-06-06\\\",\\n    \\\"rates\\\": {\\n        \\\"AED\\\": 3.995008,\\n        \\\"AFN\\\": 76.772884,\\n        \\\"ALL\\\": 100.155946,\\n        \\\"AMD\\\": 421.638266,\\n        \\\"ANG\\\": 1.961296,\\n        \\\"AOA\\\": 929.42275,\\n        \\\"ARS\\\": 977.279491,\\n        \\\"AUD\\\": 1.639453,\\n        \\\"AWG\\\": 1.95782,\\n        \\\"AZN\\\": 1.850033,\\n        \\\"BAM\\\": 1.956893,\\n        \\\"BBD\\\": 2.196727,\\n        \\\"BDT\\\": 127.811394,\\n        \\\"BGN\\\": 1.956351,\\n        \\\"BHD\\\": 0.409969,\\n        \\\"BIF\\\": 3126.646506,\\n        \\\"BMD\\\": 1.087678,\\n        \\\"BND\\\": 1.466019,\\n        \\\"BOB\\\": 7.520166,\\n        \\\"BRL\\\": 5.74718,\\n        \\\"BSD\\\": 1.088308,\\n        \\\"BTC\\\": 0.00001531013,\\n        \\\"BTN\\\": 90.842143,\\n        \\\"BWP\\\": 14.989373,\\n        \\\"BYN\\\": 3.561389,\\n        \\\"BYR\\\": 21318.48024,\\n        \\\"BZD\\\": 2.193625,\\n        \\\"CAD\\\": 1.491043,\\n        \\\"CDF\\\": 3072.688892,\\n        \\\"CHF\\\": 0.970531,\\n        \\\"CLF\\\": 0.035956,\\n        \\\"CLP\\\": 992.168648,\\n        \\\"CNY\\\": 7.880988,\\n        \\\"CNH\\\": 7.897513,\\n        \\\"COP\\\": 4281.56659,\\n        \\\"CRC\\\": 575.221312,\\n        \\\"CUC\\\": 1.087678,\\n        \\\"CUP\\\": 28.823455,\\n        \\\"CVE\\\": 110.326627,\\n        \\\"CZK\\\": 24.620452,\\n        \\\"DJF\\\": 193.758231,\\n        \\\"DKK\\\": 7.459467,\\n        \\\"DOP\\\": 64.55606,\\n        \\\"DZD\\\": 146.153206,\\n        \\\"EGP\\\": 51.662178,\\n        \\\"ERN\\\": 16.315163,\\n        \\\"ETB\\\": 62.572264,\\n        \\\"EUR\\\": 1,\\n        \\\"FJD\\\": 2.457009,\\n        \\\"FKP\\\": 0.865899,\\n        \\\"GBP\\\": 0.852076,\\n        \\\"GEL\\\": 3.029204,\\n        \\\"GGP\\\": 0.865899,\\n        \\\"GHS\\\": 16.214983,\\n        \\\"GIP\\\": 0.865899,\\n        \\\"GMD\\\": 73.690049,\\n        \\\"GNF\\\": 9371.234656,\\n        \\\"GTQ\\\": 8.455723,\\n        \\\"GYD\\\": 227.80725,\\n        \\\"HKD\\\": 8.494599,\\n        \\\"HNL\\\": 26.886018,\\n        \\\"HRK\\\": 7.591942,\\n        \\\"HTG\\\": 144.440683,\\n        \\\"HUF\\\": 390.610573,\\n        \\\"IDR\\\": 17691.456254,\\n        \\\"ILS\\\": 4.062182,\\n        \\\"IMP\\\": 0.865899,\\n        \\\"INR\\\": 90.824774,\\n        \\\"IQD\\\": 1425.596321,\\n        \\\"IRR\\\": 45777.631142,\\n        \\\"ISK\\\": 149.74055,\\n        \\\"JEP\\\": 0.865899,\\n        \\\"JMD\\\": 169.224527,\\n        \\\"JOD\\\": 0.770732,\\n        \\\"JPY\\\": 169.99258,\\n        \\\"KES\\\": 141.6703,\\n        \\\"KGS\\\": 94.955666,\\n        \\\"KHR\\\": 4469.496606,\\n        \\\"KMF\\\": 492.582014,\\n        \\\"KPW\\\": 978.909478,\\n        \\\"KRW\\\": 1488.98736,\\n        \\\"KWD\\\": 0.333275,\\n        \\\"KYD\\\": 0.906907,\\n        \\\"KZT\\\": 486.231603,\\n        \\\"LAK\\\": 23426.978328,\\n        \\\"LBP\\\": 97451.88744,\\n        \\\"LKR\\\": 329.424012,\\n        \\\"LRD\\\": 211.0679,\\n        \\\"LSL\\\": 20.652936,\\n        \\\"LTL\\\": 3.211629,\\n        \\\"LVL\\\": 0.657925,\\n        \\\"LYD\\\": 5.26294,\\n        \\\"MAD\\\": 10.763512,\\n        \\\"MDL\\\": 19.174711,\\n        \\\"MGA\\\": 4867.763827,\\n        \\\"MKD\\\": 61.654439,\\n        \\\"MMK\\\": 2986.37085,\\n        \\\"MNT\\\": 3752.487347,\\n        \\\"MOP\\\": 8.75379,\\n        \\\"MRU\\\": 42.635816,\\n        \\\"MUR\\\": 50.207114,\\n        \\\"MVR\\\": 16.761151,\\n        \\\"MWK\\\": 1886.853973,\\n        \\\"MXN\\\": 19.153839,\\n        \\\"MYR\\\": 5.105599,\\n        \\\"MZN\\\": 69.071266,\\n        \\\"NAD\\\": 20.652936,\\n        \\\"NGN\\\": 1627.405598,\\n        \\\"NIO\\\": 40.062378,\\n        \\\"NOK\\\": 11.53449,\\n        \\\"NPR\\\": 145.347189,\\n        \\\"NZD\\\": 1.761554,\\n        \\\"OMR\\\": 0.418718,\\n        \\\"PAB\\\": 1.088203,\\n        \\\"PEN\\\": 4.073275,\\n        \\\"PGK\\\": 4.236366,\\n        \\\"PHP\\\": 63.756368,\\n        \\\"PKR\\\": 303.511638,\\n        \\\"PLN\\\": 4.302445,\\n        \\\"PYG\\\": 8188.574036,\\n        \\\"QAR\\\": 3.969517,\\n        \\\"RON\\\": 4.976773,\\n        \\\"RSD\\\": 117.086317,\\n        \\\"RUB\\\": 96.801958,\\n        \\\"RWF\\\": 1414.89034,\\n        \\\"SAR\\\": 4.07946,\\n        \\\"SBD\\\": 9.222112,\\n        \\\"SCR\\\": 14.591217,\\n        \\\"SDG\\\": 637.378694,\\n        \\\"SEK\\\": 11.317557,\\n        \\\"SGD\\\": 1.466739,\\n        \\\"SHP\\\": 1.374226,\\n        \\\"SLE\\\": 24.850499,\\n        \\\"SLL\\\": 22808.055685,\\n        \\\"SOS\\\": 621.947412,\\n        \\\"SRD\\\": 34.631107,\\n        \\\"STD\\\": 22512.729547,\\n        \\\"SVC\\\": 9.522319,\\n        \\\"SYP\\\": 2732.822351,\\n        \\\"SZL\\\": 20.648534,\\n        \\\"THB\\\": 39.754468,\\n        \\\"TJS\\\": 11.65511,\\n        \\\"TMT\\\": 3.806871,\\n        \\\"TND\\\": 3.386292,\\n        \\\"TOP\\\": 2.560665,\\n        \\\"TRY\\\": 35.040728,\\n        \\\"TTD\\\": 7.363113,\\n        \\\"TWD\\\": 35.14501,\\n        \\\"TZS\\\": 2849.715204,\\n        \\\"UAH\\\": 43.690905,\\n        \\\"UGX\\\": 4128.306021,\\n        \\\"USD\\\": 1.087678,\\n        \\\"UYU\\\": 42.383675,\\n        \\\"UZS\\\": 13794.705552,\\n        \\\"VEF\\\": 3940169.113442,\\n        \\\"VES\\\": 39.677328,\\n        \\\"VND\\\": 27656.92124,\\n        \\\"VUV\\\": 129.131245,\\n        \\\"WST\\\": 3.048861,\\n        \\\"XAF\\\": 656.323614,\\n        \\\"XAG\\\": 0.035917,\\n        \\\"XAU\\\": 0.000462,\\n        \\\"XCD\\\": 2.939503,\\n        \\\"XDR\\\": 0.822359,\\n        \\\"XOF\\\": 656.323614,\\n        \\\"XPF\\\": 119.331742,\\n        \\\"YER\\\": 272.300101,\\n        \\\"ZAR\\\": 20.646836,\\n        \\\"ZMK\\\": 9790.409685,\\n        \\\"ZMW\\\": 28.593841,\\n        \\\"ZWL\\\": 350.231732\\n    }\\n}\"",
+                  "code": "",
+                  "err": {},
+                  "uuid": "95ee0a90-0526-4952-89d9-ae9a487429fe",
+                  "parentUUID": "c6efd276-34ff-4528-8d0b-e0002107a6c4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "c8ab1f70-a70d-45c9-839a-b98c62f9f3e0",
+                "95ee0a90-0526-4952-89d9-ae9a487429fe"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 5,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            },
+            {
+              "uuid": "4e7cb43e-6a09-4d26-847f-0141b1a337a5",
+              "title": "Filtering Currencies",
+              "fullFile": "/Users/olufemiade-olusile/Desktop/api-test/src/test/latest.spec.ts",
+              "file": "/src/test/latest.spec.ts",
+              "beforeHooks": [
+                {
+                  "title": "\"before all\" hook in \"Filtering Currencies\"",
+                  "fullTitle": "Exchange Rates API Filtering Currencies \"before all\" hook in \"Filtering Currencies\"",
+                  "timedOut": false,
+                  "duration": 214,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "",
+                  "err": {},
+                  "uuid": "a8910849-0ffb-4c38-be53-a506d984220c",
+                  "parentUUID": "4e7cb43e-6a09-4d26-847f-0141b1a337a5",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return a response even with a limited number of currencies",
+                  "fullTitle": "Exchange Rates API Filtering Currencies should return a response even with a limited number of currencies",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "\"Response: {\\n    \\\"success\\\": true,\\n    \\\"timestamp\\\": 1717680005,\\n    \\\"base\\\": \\\"EUR\\\",\\n    \\\"date\\\": \\\"2024-06-06\\\",\\n    \\\"rates\\\": {\\n        \\\"USD\\\": 1.087678,\\n        \\\"JPY\\\": 169.99258\\n    }\\n}\"",
+                  "code": "",
+                  "err": {},
+                  "uuid": "71ab4b3f-bd87-4a16-b958-61c156b74056",
+                  "parentUUID": "4e7cb43e-6a09-4d26-847f-0141b1a337a5",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "71ab4b3f-bd87-4a16-b958-61c156b74056"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "e5e8394c-09f3-4c3e-80a8-c0e6029b1d81",
+          "title": "Exchange Rates API Symbols",
+          "fullFile": "/Users/olufemiade-olusile/Desktop/api-test/src/test/symbol.spec.ts",
+          "file": "/src/test/symbol.spec.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Exchange Rates API Symbols\"",
+              "fullTitle": "Exchange Rates API Symbols \"before all\" hook in \"Exchange Rates API Symbols\"",
+              "timedOut": false,
+              "duration": 220,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e76c2c78-7594-4298-8223-54d8acb2edb5",
+              "parentUUID": "e5e8394c-09f3-4c3e-80a8-c0e6029b1d81",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should return a successful response",
+              "fullTitle": "Exchange Rates API Symbols should return a successful response",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"Response: {\\n    \\\"success\\\": true,\\n    \\\"symbols\\\": {\\n        \\\"AED\\\": \\\"United Arab Emirates Dirham\\\",\\n        \\\"AFN\\\": \\\"Afghan Afghani\\\",\\n        \\\"ALL\\\": \\\"Albanian Lek\\\",\\n        \\\"AMD\\\": \\\"Armenian Dram\\\",\\n        \\\"ANG\\\": \\\"Netherlands Antillean Guilder\\\",\\n        \\\"AOA\\\": \\\"Angolan Kwanza\\\",\\n        \\\"ARS\\\": \\\"Argentine Peso\\\",\\n        \\\"AUD\\\": \\\"Australian Dollar\\\",\\n        \\\"AWG\\\": \\\"Aruban Florin\\\",\\n        \\\"AZN\\\": \\\"Azerbaijani Manat\\\",\\n        \\\"BAM\\\": \\\"Bosnia-Herzegovina Convertible Mark\\\",\\n        \\\"BBD\\\": \\\"Barbadian Dollar\\\",\\n        \\\"BDT\\\": \\\"Bangladeshi Taka\\\",\\n        \\\"BGN\\\": \\\"Bulgarian Lev\\\",\\n        \\\"BHD\\\": \\\"Bahraini Dinar\\\",\\n        \\\"BIF\\\": \\\"Burundian Franc\\\",\\n        \\\"BMD\\\": \\\"Bermudan Dollar\\\",\\n        \\\"BND\\\": \\\"Brunei Dollar\\\",\\n        \\\"BOB\\\": \\\"Bolivian Boliviano\\\",\\n        \\\"BRL\\\": \\\"Brazilian Real\\\",\\n        \\\"BSD\\\": \\\"Bahamian Dollar\\\",\\n        \\\"BTC\\\": \\\"Bitcoin\\\",\\n        \\\"BTN\\\": \\\"Bhutanese Ngultrum\\\",\\n        \\\"BWP\\\": \\\"Botswanan Pula\\\",\\n        \\\"BYN\\\": \\\"New Belarusian Ruble\\\",\\n        \\\"BYR\\\": \\\"Belarusian Ruble\\\",\\n        \\\"BZD\\\": \\\"Belize Dollar\\\",\\n        \\\"CAD\\\": \\\"Canadian Dollar\\\",\\n        \\\"CDF\\\": \\\"Congolese Franc\\\",\\n        \\\"CHF\\\": \\\"Swiss Franc\\\",\\n        \\\"CLF\\\": \\\"Chilean Unit of Account (UF)\\\",\\n        \\\"CLP\\\": \\\"Chilean Peso\\\",\\n        \\\"CNY\\\": \\\"Chinese Yuan\\\",\\n        \\\"CNH\\\": \\\"Chinese Yuan Offshore\\\",\\n        \\\"COP\\\": \\\"Colombian Peso\\\",\\n        \\\"CRC\\\": \\\"Costa Rican Colón\\\",\\n        \\\"CUC\\\": \\\"Cuban Convertible Peso\\\",\\n        \\\"CUP\\\": \\\"Cuban Peso\\\",\\n        \\\"CVE\\\": \\\"Cape Verdean Escudo\\\",\\n        \\\"CZK\\\": \\\"Czech Republic Koruna\\\",\\n        \\\"DJF\\\": \\\"Djiboutian Franc\\\",\\n        \\\"DKK\\\": \\\"Danish Krone\\\",\\n        \\\"DOP\\\": \\\"Dominican Peso\\\",\\n        \\\"DZD\\\": \\\"Algerian Dinar\\\",\\n        \\\"EGP\\\": \\\"Egyptian Pound\\\",\\n        \\\"ERN\\\": \\\"Eritrean Nakfa\\\",\\n        \\\"ETB\\\": \\\"Ethiopian Birr\\\",\\n        \\\"EUR\\\": \\\"Euro\\\",\\n        \\\"FJD\\\": \\\"Fijian Dollar\\\",\\n        \\\"FKP\\\": \\\"Falkland Islands Pound\\\",\\n        \\\"GBP\\\": \\\"British Pound Sterling\\\",\\n        \\\"GEL\\\": \\\"Georgian Lari\\\",\\n        \\\"GGP\\\": \\\"Guernsey Pound\\\",\\n        \\\"GHS\\\": \\\"Ghanaian Cedi\\\",\\n        \\\"GIP\\\": \\\"Gibraltar Pound\\\",\\n        \\\"GMD\\\": \\\"Gambian Dalasi\\\",\\n        \\\"GNF\\\": \\\"Guinean Franc\\\",\\n        \\\"GTQ\\\": \\\"Guatemalan Quetzal\\\",\\n        \\\"GYD\\\": \\\"Guyanaese Dollar\\\",\\n        \\\"HKD\\\": \\\"Hong Kong Dollar\\\",\\n        \\\"HNL\\\": \\\"Honduran Lempira\\\",\\n        \\\"HRK\\\": \\\"Croatian Kuna\\\",\\n        \\\"HTG\\\": \\\"Haitian Gourde\\\",\\n        \\\"HUF\\\": \\\"Hungarian Forint\\\",\\n        \\\"IDR\\\": \\\"Indonesian Rupiah\\\",\\n        \\\"ILS\\\": \\\"Israeli New Sheqel\\\",\\n        \\\"IMP\\\": \\\"Manx pound\\\",\\n        \\\"INR\\\": \\\"Indian Rupee\\\",\\n        \\\"IQD\\\": \\\"Iraqi Dinar\\\",\\n        \\\"IRR\\\": \\\"Iranian Rial\\\",\\n        \\\"ISK\\\": \\\"Icelandic Króna\\\",\\n        \\\"JEP\\\": \\\"Jersey Pound\\\",\\n        \\\"JMD\\\": \\\"Jamaican Dollar\\\",\\n        \\\"JOD\\\": \\\"Jordanian Dinar\\\",\\n        \\\"JPY\\\": \\\"Japanese Yen\\\",\\n        \\\"KES\\\": \\\"Kenyan Shilling\\\",\\n        \\\"KGS\\\": \\\"Kyrgystani Som\\\",\\n        \\\"KHR\\\": \\\"Cambodian Riel\\\",\\n        \\\"KMF\\\": \\\"Comorian Franc\\\",\\n        \\\"KPW\\\": \\\"North Korean Won\\\",\\n        \\\"KRW\\\": \\\"South Korean Won\\\",\\n        \\\"KWD\\\": \\\"Kuwaiti Dinar\\\",\\n        \\\"KYD\\\": \\\"Cayman Islands Dollar\\\",\\n        \\\"KZT\\\": \\\"Kazakhstani Tenge\\\",\\n        \\\"LAK\\\": \\\"Laotian Kip\\\",\\n        \\\"LBP\\\": \\\"Lebanese Pound\\\",\\n        \\\"LKR\\\": \\\"Sri Lankan Rupee\\\",\\n        \\\"LRD\\\": \\\"Liberian Dollar\\\",\\n        \\\"LSL\\\": \\\"Lesotho Loti\\\",\\n        \\\"LTL\\\": \\\"Lithuanian Litas\\\",\\n        \\\"LVL\\\": \\\"Latvian Lats\\\",\\n        \\\"LYD\\\": \\\"Libyan Dinar\\\",\\n        \\\"MAD\\\": \\\"Moroccan Dirham\\\",\\n        \\\"MDL\\\": \\\"Moldovan Leu\\\",\\n        \\\"MGA\\\": \\\"Malagasy Ariary\\\",\\n        \\\"MKD\\\": \\\"Macedonian Denar\\\",\\n        \\\"MMK\\\": \\\"Myanma Kyat\\\",\\n        \\\"MNT\\\": \\\"Mongolian Tugrik\\\",\\n        \\\"MOP\\\": \\\"Macanese Pataca\\\",\\n        \\\"MRU\\\": \\\"Mauritanian Ouguiya\\\",\\n        \\\"MUR\\\": \\\"Mauritian Rupee\\\",\\n        \\\"MVR\\\": \\\"Maldivian Rufiyaa\\\",\\n        \\\"MWK\\\": \\\"Malawian Kwacha\\\",\\n        \\\"MXN\\\": \\\"Mexican Peso\\\",\\n        \\\"MYR\\\": \\\"Malaysian Ringgit\\\",\\n        \\\"MZN\\\": \\\"Mozambican Metical\\\",\\n        \\\"NAD\\\": \\\"Namibian Dollar\\\",\\n        \\\"NGN\\\": \\\"Nigerian Naira\\\",\\n        \\\"NIO\\\": \\\"Nicaraguan Córdoba\\\",\\n        \\\"NOK\\\": \\\"Norwegian Krone\\\",\\n        \\\"NPR\\\": \\\"Nepalese Rupee\\\",\\n        \\\"NZD\\\": \\\"New Zealand Dollar\\\",\\n        \\\"OMR\\\": \\\"Omani Rial\\\",\\n        \\\"PAB\\\": \\\"Panamanian Balboa\\\",\\n        \\\"PEN\\\": \\\"Peruvian Nuevo Sol\\\",\\n        \\\"PGK\\\": \\\"Papua New Guinean Kina\\\",\\n        \\\"PHP\\\": \\\"Philippine Peso\\\",\\n        \\\"PKR\\\": \\\"Pakistani Rupee\\\",\\n        \\\"PLN\\\": \\\"Polish Zloty\\\",\\n        \\\"PYG\\\": \\\"Paraguayan Guarani\\\",\\n        \\\"QAR\\\": \\\"Qatari Rial\\\",\\n        \\\"RON\\\": \\\"Romanian Leu\\\",\\n        \\\"RSD\\\": \\\"Serbian Dinar\\\",\\n        \\\"RUB\\\": \\\"Russian Ruble\\\",\\n        \\\"RWF\\\": \\\"Rwandan Franc\\\",\\n        \\\"SAR\\\": \\\"Saudi Riyal\\\",\\n        \\\"SBD\\\": \\\"Solomon Islands Dollar\\\",\\n        \\\"SCR\\\": \\\"Seychellois Rupee\\\",\\n        \\\"SDG\\\": \\\"South Sudanese Pound\\\",\\n        \\\"SEK\\\": \\\"Swedish Krona\\\",\\n        \\\"SGD\\\": \\\"Singapore Dollar\\\",\\n        \\\"SHP\\\": \\\"Saint Helena Pound\\\",\\n        \\\"SLE\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SLL\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SOS\\\": \\\"Somali Shilling\\\",\\n        \\\"SRD\\\": \\\"Surinamese Dollar\\\",\\n        \\\"STD\\\": \\\"São Tomé and Príncipe Dobra\\\",\\n        \\\"SVC\\\": \\\"Salvadoran Colón\\\",\\n        \\\"SYP\\\": \\\"Syrian Pound\\\",\\n        \\\"SZL\\\": \\\"Swazi Lilangeni\\\",\\n        \\\"THB\\\": \\\"Thai Baht\\\",\\n        \\\"TJS\\\": \\\"Tajikistani Somoni\\\",\\n        \\\"TMT\\\": \\\"Turkmenistani Manat\\\",\\n        \\\"TND\\\": \\\"Tunisian Dinar\\\",\\n        \\\"TOP\\\": \\\"Tongan Paʻanga\\\",\\n        \\\"TRY\\\": \\\"Turkish Lira\\\",\\n        \\\"TTD\\\": \\\"Trinidad and Tobago Dollar\\\",\\n        \\\"TWD\\\": \\\"New Taiwan Dollar\\\",\\n        \\\"TZS\\\": \\\"Tanzanian Shilling\\\",\\n        \\\"UAH\\\": \\\"Ukrainian Hryvnia\\\",\\n        \\\"UGX\\\": \\\"Ugandan Shilling\\\",\\n        \\\"USD\\\": \\\"United States Dollar\\\",\\n        \\\"UYU\\\": \\\"Uruguayan Peso\\\",\\n        \\\"UZS\\\": \\\"Uzbekistan Som\\\",\\n        \\\"VEF\\\": \\\"Venezuelan Bolívar Fuerte\\\",\\n        \\\"VES\\\": \\\"Sovereign Bolivar\\\",\\n        \\\"VND\\\": \\\"Vietnamese Dong\\\",\\n        \\\"VUV\\\": \\\"Vanuatu Vatu\\\",\\n        \\\"WST\\\": \\\"Samoan Tala\\\",\\n        \\\"XAF\\\": \\\"CFA Franc BEAC\\\",\\n        \\\"XAG\\\": \\\"Silver (troy ounce)\\\",\\n        \\\"XAU\\\": \\\"Gold (troy ounce)\\\",\\n        \\\"XCD\\\": \\\"East Caribbean Dollar\\\",\\n        \\\"XDR\\\": \\\"Special Drawing Rights\\\",\\n        \\\"XOF\\\": \\\"CFA Franc BCEAO\\\",\\n        \\\"XPF\\\": \\\"CFP Franc\\\",\\n        \\\"YER\\\": \\\"Yemeni Rial\\\",\\n        \\\"ZAR\\\": \\\"South African Rand\\\",\\n        \\\"ZMK\\\": \\\"Zambian Kwacha (pre-2013)\\\",\\n        \\\"ZMW\\\": \\\"Zambian Kwacha\\\",\\n        \\\"ZWL\\\": \\\"Zimbabwean Dollar\\\"\\n    }\\n}\"",
+              "code": "",
+              "err": {},
+              "uuid": "babd477c-f737-4bb1-bf35-cc9dba69ab6c",
+              "parentUUID": "e5e8394c-09f3-4c3e-80a8-c0e6029b1d81",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should have the basic symbols in the response",
+              "fullTitle": "Exchange Rates API Symbols should have the basic symbols in the response",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"Response: {\\n    \\\"success\\\": true,\\n    \\\"symbols\\\": {\\n        \\\"AED\\\": \\\"United Arab Emirates Dirham\\\",\\n        \\\"AFN\\\": \\\"Afghan Afghani\\\",\\n        \\\"ALL\\\": \\\"Albanian Lek\\\",\\n        \\\"AMD\\\": \\\"Armenian Dram\\\",\\n        \\\"ANG\\\": \\\"Netherlands Antillean Guilder\\\",\\n        \\\"AOA\\\": \\\"Angolan Kwanza\\\",\\n        \\\"ARS\\\": \\\"Argentine Peso\\\",\\n        \\\"AUD\\\": \\\"Australian Dollar\\\",\\n        \\\"AWG\\\": \\\"Aruban Florin\\\",\\n        \\\"AZN\\\": \\\"Azerbaijani Manat\\\",\\n        \\\"BAM\\\": \\\"Bosnia-Herzegovina Convertible Mark\\\",\\n        \\\"BBD\\\": \\\"Barbadian Dollar\\\",\\n        \\\"BDT\\\": \\\"Bangladeshi Taka\\\",\\n        \\\"BGN\\\": \\\"Bulgarian Lev\\\",\\n        \\\"BHD\\\": \\\"Bahraini Dinar\\\",\\n        \\\"BIF\\\": \\\"Burundian Franc\\\",\\n        \\\"BMD\\\": \\\"Bermudan Dollar\\\",\\n        \\\"BND\\\": \\\"Brunei Dollar\\\",\\n        \\\"BOB\\\": \\\"Bolivian Boliviano\\\",\\n        \\\"BRL\\\": \\\"Brazilian Real\\\",\\n        \\\"BSD\\\": \\\"Bahamian Dollar\\\",\\n        \\\"BTC\\\": \\\"Bitcoin\\\",\\n        \\\"BTN\\\": \\\"Bhutanese Ngultrum\\\",\\n        \\\"BWP\\\": \\\"Botswanan Pula\\\",\\n        \\\"BYN\\\": \\\"New Belarusian Ruble\\\",\\n        \\\"BYR\\\": \\\"Belarusian Ruble\\\",\\n        \\\"BZD\\\": \\\"Belize Dollar\\\",\\n        \\\"CAD\\\": \\\"Canadian Dollar\\\",\\n        \\\"CDF\\\": \\\"Congolese Franc\\\",\\n        \\\"CHF\\\": \\\"Swiss Franc\\\",\\n        \\\"CLF\\\": \\\"Chilean Unit of Account (UF)\\\",\\n        \\\"CLP\\\": \\\"Chilean Peso\\\",\\n        \\\"CNY\\\": \\\"Chinese Yuan\\\",\\n        \\\"CNH\\\": \\\"Chinese Yuan Offshore\\\",\\n        \\\"COP\\\": \\\"Colombian Peso\\\",\\n        \\\"CRC\\\": \\\"Costa Rican Colón\\\",\\n        \\\"CUC\\\": \\\"Cuban Convertible Peso\\\",\\n        \\\"CUP\\\": \\\"Cuban Peso\\\",\\n        \\\"CVE\\\": \\\"Cape Verdean Escudo\\\",\\n        \\\"CZK\\\": \\\"Czech Republic Koruna\\\",\\n        \\\"DJF\\\": \\\"Djiboutian Franc\\\",\\n        \\\"DKK\\\": \\\"Danish Krone\\\",\\n        \\\"DOP\\\": \\\"Dominican Peso\\\",\\n        \\\"DZD\\\": \\\"Algerian Dinar\\\",\\n        \\\"EGP\\\": \\\"Egyptian Pound\\\",\\n        \\\"ERN\\\": \\\"Eritrean Nakfa\\\",\\n        \\\"ETB\\\": \\\"Ethiopian Birr\\\",\\n        \\\"EUR\\\": \\\"Euro\\\",\\n        \\\"FJD\\\": \\\"Fijian Dollar\\\",\\n        \\\"FKP\\\": \\\"Falkland Islands Pound\\\",\\n        \\\"GBP\\\": \\\"British Pound Sterling\\\",\\n        \\\"GEL\\\": \\\"Georgian Lari\\\",\\n        \\\"GGP\\\": \\\"Guernsey Pound\\\",\\n        \\\"GHS\\\": \\\"Ghanaian Cedi\\\",\\n        \\\"GIP\\\": \\\"Gibraltar Pound\\\",\\n        \\\"GMD\\\": \\\"Gambian Dalasi\\\",\\n        \\\"GNF\\\": \\\"Guinean Franc\\\",\\n        \\\"GTQ\\\": \\\"Guatemalan Quetzal\\\",\\n        \\\"GYD\\\": \\\"Guyanaese Dollar\\\",\\n        \\\"HKD\\\": \\\"Hong Kong Dollar\\\",\\n        \\\"HNL\\\": \\\"Honduran Lempira\\\",\\n        \\\"HRK\\\": \\\"Croatian Kuna\\\",\\n        \\\"HTG\\\": \\\"Haitian Gourde\\\",\\n        \\\"HUF\\\": \\\"Hungarian Forint\\\",\\n        \\\"IDR\\\": \\\"Indonesian Rupiah\\\",\\n        \\\"ILS\\\": \\\"Israeli New Sheqel\\\",\\n        \\\"IMP\\\": \\\"Manx pound\\\",\\n        \\\"INR\\\": \\\"Indian Rupee\\\",\\n        \\\"IQD\\\": \\\"Iraqi Dinar\\\",\\n        \\\"IRR\\\": \\\"Iranian Rial\\\",\\n        \\\"ISK\\\": \\\"Icelandic Króna\\\",\\n        \\\"JEP\\\": \\\"Jersey Pound\\\",\\n        \\\"JMD\\\": \\\"Jamaican Dollar\\\",\\n        \\\"JOD\\\": \\\"Jordanian Dinar\\\",\\n        \\\"JPY\\\": \\\"Japanese Yen\\\",\\n        \\\"KES\\\": \\\"Kenyan Shilling\\\",\\n        \\\"KGS\\\": \\\"Kyrgystani Som\\\",\\n        \\\"KHR\\\": \\\"Cambodian Riel\\\",\\n        \\\"KMF\\\": \\\"Comorian Franc\\\",\\n        \\\"KPW\\\": \\\"North Korean Won\\\",\\n        \\\"KRW\\\": \\\"South Korean Won\\\",\\n        \\\"KWD\\\": \\\"Kuwaiti Dinar\\\",\\n        \\\"KYD\\\": \\\"Cayman Islands Dollar\\\",\\n        \\\"KZT\\\": \\\"Kazakhstani Tenge\\\",\\n        \\\"LAK\\\": \\\"Laotian Kip\\\",\\n        \\\"LBP\\\": \\\"Lebanese Pound\\\",\\n        \\\"LKR\\\": \\\"Sri Lankan Rupee\\\",\\n        \\\"LRD\\\": \\\"Liberian Dollar\\\",\\n        \\\"LSL\\\": \\\"Lesotho Loti\\\",\\n        \\\"LTL\\\": \\\"Lithuanian Litas\\\",\\n        \\\"LVL\\\": \\\"Latvian Lats\\\",\\n        \\\"LYD\\\": \\\"Libyan Dinar\\\",\\n        \\\"MAD\\\": \\\"Moroccan Dirham\\\",\\n        \\\"MDL\\\": \\\"Moldovan Leu\\\",\\n        \\\"MGA\\\": \\\"Malagasy Ariary\\\",\\n        \\\"MKD\\\": \\\"Macedonian Denar\\\",\\n        \\\"MMK\\\": \\\"Myanma Kyat\\\",\\n        \\\"MNT\\\": \\\"Mongolian Tugrik\\\",\\n        \\\"MOP\\\": \\\"Macanese Pataca\\\",\\n        \\\"MRU\\\": \\\"Mauritanian Ouguiya\\\",\\n        \\\"MUR\\\": \\\"Mauritian Rupee\\\",\\n        \\\"MVR\\\": \\\"Maldivian Rufiyaa\\\",\\n        \\\"MWK\\\": \\\"Malawian Kwacha\\\",\\n        \\\"MXN\\\": \\\"Mexican Peso\\\",\\n        \\\"MYR\\\": \\\"Malaysian Ringgit\\\",\\n        \\\"MZN\\\": \\\"Mozambican Metical\\\",\\n        \\\"NAD\\\": \\\"Namibian Dollar\\\",\\n        \\\"NGN\\\": \\\"Nigerian Naira\\\",\\n        \\\"NIO\\\": \\\"Nicaraguan Córdoba\\\",\\n        \\\"NOK\\\": \\\"Norwegian Krone\\\",\\n        \\\"NPR\\\": \\\"Nepalese Rupee\\\",\\n        \\\"NZD\\\": \\\"New Zealand Dollar\\\",\\n        \\\"OMR\\\": \\\"Omani Rial\\\",\\n        \\\"PAB\\\": \\\"Panamanian Balboa\\\",\\n        \\\"PEN\\\": \\\"Peruvian Nuevo Sol\\\",\\n        \\\"PGK\\\": \\\"Papua New Guinean Kina\\\",\\n        \\\"PHP\\\": \\\"Philippine Peso\\\",\\n        \\\"PKR\\\": \\\"Pakistani Rupee\\\",\\n        \\\"PLN\\\": \\\"Polish Zloty\\\",\\n        \\\"PYG\\\": \\\"Paraguayan Guarani\\\",\\n        \\\"QAR\\\": \\\"Qatari Rial\\\",\\n        \\\"RON\\\": \\\"Romanian Leu\\\",\\n        \\\"RSD\\\": \\\"Serbian Dinar\\\",\\n        \\\"RUB\\\": \\\"Russian Ruble\\\",\\n        \\\"RWF\\\": \\\"Rwandan Franc\\\",\\n        \\\"SAR\\\": \\\"Saudi Riyal\\\",\\n        \\\"SBD\\\": \\\"Solomon Islands Dollar\\\",\\n        \\\"SCR\\\": \\\"Seychellois Rupee\\\",\\n        \\\"SDG\\\": \\\"South Sudanese Pound\\\",\\n        \\\"SEK\\\": \\\"Swedish Krona\\\",\\n        \\\"SGD\\\": \\\"Singapore Dollar\\\",\\n        \\\"SHP\\\": \\\"Saint Helena Pound\\\",\\n        \\\"SLE\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SLL\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SOS\\\": \\\"Somali Shilling\\\",\\n        \\\"SRD\\\": \\\"Surinamese Dollar\\\",\\n        \\\"STD\\\": \\\"São Tomé and Príncipe Dobra\\\",\\n        \\\"SVC\\\": \\\"Salvadoran Colón\\\",\\n        \\\"SYP\\\": \\\"Syrian Pound\\\",\\n        \\\"SZL\\\": \\\"Swazi Lilangeni\\\",\\n        \\\"THB\\\": \\\"Thai Baht\\\",\\n        \\\"TJS\\\": \\\"Tajikistani Somoni\\\",\\n        \\\"TMT\\\": \\\"Turkmenistani Manat\\\",\\n        \\\"TND\\\": \\\"Tunisian Dinar\\\",\\n        \\\"TOP\\\": \\\"Tongan Paʻanga\\\",\\n        \\\"TRY\\\": \\\"Turkish Lira\\\",\\n        \\\"TTD\\\": \\\"Trinidad and Tobago Dollar\\\",\\n        \\\"TWD\\\": \\\"New Taiwan Dollar\\\",\\n        \\\"TZS\\\": \\\"Tanzanian Shilling\\\",\\n        \\\"UAH\\\": \\\"Ukrainian Hryvnia\\\",\\n        \\\"UGX\\\": \\\"Ugandan Shilling\\\",\\n        \\\"USD\\\": \\\"United States Dollar\\\",\\n        \\\"UYU\\\": \\\"Uruguayan Peso\\\",\\n        \\\"UZS\\\": \\\"Uzbekistan Som\\\",\\n        \\\"VEF\\\": \\\"Venezuelan Bolívar Fuerte\\\",\\n        \\\"VES\\\": \\\"Sovereign Bolivar\\\",\\n        \\\"VND\\\": \\\"Vietnamese Dong\\\",\\n        \\\"VUV\\\": \\\"Vanuatu Vatu\\\",\\n        \\\"WST\\\": \\\"Samoan Tala\\\",\\n        \\\"XAF\\\": \\\"CFA Franc BEAC\\\",\\n        \\\"XAG\\\": \\\"Silver (troy ounce)\\\",\\n        \\\"XAU\\\": \\\"Gold (troy ounce)\\\",\\n        \\\"XCD\\\": \\\"East Caribbean Dollar\\\",\\n        \\\"XDR\\\": \\\"Special Drawing Rights\\\",\\n        \\\"XOF\\\": \\\"CFA Franc BCEAO\\\",\\n        \\\"XPF\\\": \\\"CFP Franc\\\",\\n        \\\"YER\\\": \\\"Yemeni Rial\\\",\\n        \\\"ZAR\\\": \\\"South African Rand\\\",\\n        \\\"ZMK\\\": \\\"Zambian Kwacha (pre-2013)\\\",\\n        \\\"ZMW\\\": \\\"Zambian Kwacha\\\",\\n        \\\"ZWL\\\": \\\"Zimbabwean Dollar\\\"\\n    }\\n}\"",
+              "code": "",
+              "err": {},
+              "uuid": "62699b83-6f10-4419-8235-28daac7c3b55",
+              "parentUUID": "e5e8394c-09f3-4c3e-80a8-c0e6029b1d81",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should include at least 100 currency symbols",
+              "fullTitle": "Exchange Rates API Symbols should include at least 100 currency symbols",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"Response: {\\n    \\\"success\\\": true,\\n    \\\"symbols\\\": {\\n        \\\"AED\\\": \\\"United Arab Emirates Dirham\\\",\\n        \\\"AFN\\\": \\\"Afghan Afghani\\\",\\n        \\\"ALL\\\": \\\"Albanian Lek\\\",\\n        \\\"AMD\\\": \\\"Armenian Dram\\\",\\n        \\\"ANG\\\": \\\"Netherlands Antillean Guilder\\\",\\n        \\\"AOA\\\": \\\"Angolan Kwanza\\\",\\n        \\\"ARS\\\": \\\"Argentine Peso\\\",\\n        \\\"AUD\\\": \\\"Australian Dollar\\\",\\n        \\\"AWG\\\": \\\"Aruban Florin\\\",\\n        \\\"AZN\\\": \\\"Azerbaijani Manat\\\",\\n        \\\"BAM\\\": \\\"Bosnia-Herzegovina Convertible Mark\\\",\\n        \\\"BBD\\\": \\\"Barbadian Dollar\\\",\\n        \\\"BDT\\\": \\\"Bangladeshi Taka\\\",\\n        \\\"BGN\\\": \\\"Bulgarian Lev\\\",\\n        \\\"BHD\\\": \\\"Bahraini Dinar\\\",\\n        \\\"BIF\\\": \\\"Burundian Franc\\\",\\n        \\\"BMD\\\": \\\"Bermudan Dollar\\\",\\n        \\\"BND\\\": \\\"Brunei Dollar\\\",\\n        \\\"BOB\\\": \\\"Bolivian Boliviano\\\",\\n        \\\"BRL\\\": \\\"Brazilian Real\\\",\\n        \\\"BSD\\\": \\\"Bahamian Dollar\\\",\\n        \\\"BTC\\\": \\\"Bitcoin\\\",\\n        \\\"BTN\\\": \\\"Bhutanese Ngultrum\\\",\\n        \\\"BWP\\\": \\\"Botswanan Pula\\\",\\n        \\\"BYN\\\": \\\"New Belarusian Ruble\\\",\\n        \\\"BYR\\\": \\\"Belarusian Ruble\\\",\\n        \\\"BZD\\\": \\\"Belize Dollar\\\",\\n        \\\"CAD\\\": \\\"Canadian Dollar\\\",\\n        \\\"CDF\\\": \\\"Congolese Franc\\\",\\n        \\\"CHF\\\": \\\"Swiss Franc\\\",\\n        \\\"CLF\\\": \\\"Chilean Unit of Account (UF)\\\",\\n        \\\"CLP\\\": \\\"Chilean Peso\\\",\\n        \\\"CNY\\\": \\\"Chinese Yuan\\\",\\n        \\\"CNH\\\": \\\"Chinese Yuan Offshore\\\",\\n        \\\"COP\\\": \\\"Colombian Peso\\\",\\n        \\\"CRC\\\": \\\"Costa Rican Colón\\\",\\n        \\\"CUC\\\": \\\"Cuban Convertible Peso\\\",\\n        \\\"CUP\\\": \\\"Cuban Peso\\\",\\n        \\\"CVE\\\": \\\"Cape Verdean Escudo\\\",\\n        \\\"CZK\\\": \\\"Czech Republic Koruna\\\",\\n        \\\"DJF\\\": \\\"Djiboutian Franc\\\",\\n        \\\"DKK\\\": \\\"Danish Krone\\\",\\n        \\\"DOP\\\": \\\"Dominican Peso\\\",\\n        \\\"DZD\\\": \\\"Algerian Dinar\\\",\\n        \\\"EGP\\\": \\\"Egyptian Pound\\\",\\n        \\\"ERN\\\": \\\"Eritrean Nakfa\\\",\\n        \\\"ETB\\\": \\\"Ethiopian Birr\\\",\\n        \\\"EUR\\\": \\\"Euro\\\",\\n        \\\"FJD\\\": \\\"Fijian Dollar\\\",\\n        \\\"FKP\\\": \\\"Falkland Islands Pound\\\",\\n        \\\"GBP\\\": \\\"British Pound Sterling\\\",\\n        \\\"GEL\\\": \\\"Georgian Lari\\\",\\n        \\\"GGP\\\": \\\"Guernsey Pound\\\",\\n        \\\"GHS\\\": \\\"Ghanaian Cedi\\\",\\n        \\\"GIP\\\": \\\"Gibraltar Pound\\\",\\n        \\\"GMD\\\": \\\"Gambian Dalasi\\\",\\n        \\\"GNF\\\": \\\"Guinean Franc\\\",\\n        \\\"GTQ\\\": \\\"Guatemalan Quetzal\\\",\\n        \\\"GYD\\\": \\\"Guyanaese Dollar\\\",\\n        \\\"HKD\\\": \\\"Hong Kong Dollar\\\",\\n        \\\"HNL\\\": \\\"Honduran Lempira\\\",\\n        \\\"HRK\\\": \\\"Croatian Kuna\\\",\\n        \\\"HTG\\\": \\\"Haitian Gourde\\\",\\n        \\\"HUF\\\": \\\"Hungarian Forint\\\",\\n        \\\"IDR\\\": \\\"Indonesian Rupiah\\\",\\n        \\\"ILS\\\": \\\"Israeli New Sheqel\\\",\\n        \\\"IMP\\\": \\\"Manx pound\\\",\\n        \\\"INR\\\": \\\"Indian Rupee\\\",\\n        \\\"IQD\\\": \\\"Iraqi Dinar\\\",\\n        \\\"IRR\\\": \\\"Iranian Rial\\\",\\n        \\\"ISK\\\": \\\"Icelandic Króna\\\",\\n        \\\"JEP\\\": \\\"Jersey Pound\\\",\\n        \\\"JMD\\\": \\\"Jamaican Dollar\\\",\\n        \\\"JOD\\\": \\\"Jordanian Dinar\\\",\\n        \\\"JPY\\\": \\\"Japanese Yen\\\",\\n        \\\"KES\\\": \\\"Kenyan Shilling\\\",\\n        \\\"KGS\\\": \\\"Kyrgystani Som\\\",\\n        \\\"KHR\\\": \\\"Cambodian Riel\\\",\\n        \\\"KMF\\\": \\\"Comorian Franc\\\",\\n        \\\"KPW\\\": \\\"North Korean Won\\\",\\n        \\\"KRW\\\": \\\"South Korean Won\\\",\\n        \\\"KWD\\\": \\\"Kuwaiti Dinar\\\",\\n        \\\"KYD\\\": \\\"Cayman Islands Dollar\\\",\\n        \\\"KZT\\\": \\\"Kazakhstani Tenge\\\",\\n        \\\"LAK\\\": \\\"Laotian Kip\\\",\\n        \\\"LBP\\\": \\\"Lebanese Pound\\\",\\n        \\\"LKR\\\": \\\"Sri Lankan Rupee\\\",\\n        \\\"LRD\\\": \\\"Liberian Dollar\\\",\\n        \\\"LSL\\\": \\\"Lesotho Loti\\\",\\n        \\\"LTL\\\": \\\"Lithuanian Litas\\\",\\n        \\\"LVL\\\": \\\"Latvian Lats\\\",\\n        \\\"LYD\\\": \\\"Libyan Dinar\\\",\\n        \\\"MAD\\\": \\\"Moroccan Dirham\\\",\\n        \\\"MDL\\\": \\\"Moldovan Leu\\\",\\n        \\\"MGA\\\": \\\"Malagasy Ariary\\\",\\n        \\\"MKD\\\": \\\"Macedonian Denar\\\",\\n        \\\"MMK\\\": \\\"Myanma Kyat\\\",\\n        \\\"MNT\\\": \\\"Mongolian Tugrik\\\",\\n        \\\"MOP\\\": \\\"Macanese Pataca\\\",\\n        \\\"MRU\\\": \\\"Mauritanian Ouguiya\\\",\\n        \\\"MUR\\\": \\\"Mauritian Rupee\\\",\\n        \\\"MVR\\\": \\\"Maldivian Rufiyaa\\\",\\n        \\\"MWK\\\": \\\"Malawian Kwacha\\\",\\n        \\\"MXN\\\": \\\"Mexican Peso\\\",\\n        \\\"MYR\\\": \\\"Malaysian Ringgit\\\",\\n        \\\"MZN\\\": \\\"Mozambican Metical\\\",\\n        \\\"NAD\\\": \\\"Namibian Dollar\\\",\\n        \\\"NGN\\\": \\\"Nigerian Naira\\\",\\n        \\\"NIO\\\": \\\"Nicaraguan Córdoba\\\",\\n        \\\"NOK\\\": \\\"Norwegian Krone\\\",\\n        \\\"NPR\\\": \\\"Nepalese Rupee\\\",\\n        \\\"NZD\\\": \\\"New Zealand Dollar\\\",\\n        \\\"OMR\\\": \\\"Omani Rial\\\",\\n        \\\"PAB\\\": \\\"Panamanian Balboa\\\",\\n        \\\"PEN\\\": \\\"Peruvian Nuevo Sol\\\",\\n        \\\"PGK\\\": \\\"Papua New Guinean Kina\\\",\\n        \\\"PHP\\\": \\\"Philippine Peso\\\",\\n        \\\"PKR\\\": \\\"Pakistani Rupee\\\",\\n        \\\"PLN\\\": \\\"Polish Zloty\\\",\\n        \\\"PYG\\\": \\\"Paraguayan Guarani\\\",\\n        \\\"QAR\\\": \\\"Qatari Rial\\\",\\n        \\\"RON\\\": \\\"Romanian Leu\\\",\\n        \\\"RSD\\\": \\\"Serbian Dinar\\\",\\n        \\\"RUB\\\": \\\"Russian Ruble\\\",\\n        \\\"RWF\\\": \\\"Rwandan Franc\\\",\\n        \\\"SAR\\\": \\\"Saudi Riyal\\\",\\n        \\\"SBD\\\": \\\"Solomon Islands Dollar\\\",\\n        \\\"SCR\\\": \\\"Seychellois Rupee\\\",\\n        \\\"SDG\\\": \\\"South Sudanese Pound\\\",\\n        \\\"SEK\\\": \\\"Swedish Krona\\\",\\n        \\\"SGD\\\": \\\"Singapore Dollar\\\",\\n        \\\"SHP\\\": \\\"Saint Helena Pound\\\",\\n        \\\"SLE\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SLL\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SOS\\\": \\\"Somali Shilling\\\",\\n        \\\"SRD\\\": \\\"Surinamese Dollar\\\",\\n        \\\"STD\\\": \\\"São Tomé and Príncipe Dobra\\\",\\n        \\\"SVC\\\": \\\"Salvadoran Colón\\\",\\n        \\\"SYP\\\": \\\"Syrian Pound\\\",\\n        \\\"SZL\\\": \\\"Swazi Lilangeni\\\",\\n        \\\"THB\\\": \\\"Thai Baht\\\",\\n        \\\"TJS\\\": \\\"Tajikistani Somoni\\\",\\n        \\\"TMT\\\": \\\"Turkmenistani Manat\\\",\\n        \\\"TND\\\": \\\"Tunisian Dinar\\\",\\n        \\\"TOP\\\": \\\"Tongan Paʻanga\\\",\\n        \\\"TRY\\\": \\\"Turkish Lira\\\",\\n        \\\"TTD\\\": \\\"Trinidad and Tobago Dollar\\\",\\n        \\\"TWD\\\": \\\"New Taiwan Dollar\\\",\\n        \\\"TZS\\\": \\\"Tanzanian Shilling\\\",\\n        \\\"UAH\\\": \\\"Ukrainian Hryvnia\\\",\\n        \\\"UGX\\\": \\\"Ugandan Shilling\\\",\\n        \\\"USD\\\": \\\"United States Dollar\\\",\\n        \\\"UYU\\\": \\\"Uruguayan Peso\\\",\\n        \\\"UZS\\\": \\\"Uzbekistan Som\\\",\\n        \\\"VEF\\\": \\\"Venezuelan Bolívar Fuerte\\\",\\n        \\\"VES\\\": \\\"Sovereign Bolivar\\\",\\n        \\\"VND\\\": \\\"Vietnamese Dong\\\",\\n        \\\"VUV\\\": \\\"Vanuatu Vatu\\\",\\n        \\\"WST\\\": \\\"Samoan Tala\\\",\\n        \\\"XAF\\\": \\\"CFA Franc BEAC\\\",\\n        \\\"XAG\\\": \\\"Silver (troy ounce)\\\",\\n        \\\"XAU\\\": \\\"Gold (troy ounce)\\\",\\n        \\\"XCD\\\": \\\"East Caribbean Dollar\\\",\\n        \\\"XDR\\\": \\\"Special Drawing Rights\\\",\\n        \\\"XOF\\\": \\\"CFA Franc BCEAO\\\",\\n        \\\"XPF\\\": \\\"CFP Franc\\\",\\n        \\\"YER\\\": \\\"Yemeni Rial\\\",\\n        \\\"ZAR\\\": \\\"South African Rand\\\",\\n        \\\"ZMK\\\": \\\"Zambian Kwacha (pre-2013)\\\",\\n        \\\"ZMW\\\": \\\"Zambian Kwacha\\\",\\n        \\\"ZWL\\\": \\\"Zimbabwean Dollar\\\"\\n    }\\n}\"",
+              "code": "",
+              "err": {},
+              "uuid": "3cb1f460-8a13-4bff-be72-a6ddc23d054b",
+              "parentUUID": "e5e8394c-09f3-4c3e-80a8-c0e6029b1d81",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should check for specific currency name correctness",
+              "fullTitle": "Exchange Rates API Symbols should check for specific currency name correctness",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"Response: {\\n    \\\"success\\\": true,\\n    \\\"symbols\\\": {\\n        \\\"AED\\\": \\\"United Arab Emirates Dirham\\\",\\n        \\\"AFN\\\": \\\"Afghan Afghani\\\",\\n        \\\"ALL\\\": \\\"Albanian Lek\\\",\\n        \\\"AMD\\\": \\\"Armenian Dram\\\",\\n        \\\"ANG\\\": \\\"Netherlands Antillean Guilder\\\",\\n        \\\"AOA\\\": \\\"Angolan Kwanza\\\",\\n        \\\"ARS\\\": \\\"Argentine Peso\\\",\\n        \\\"AUD\\\": \\\"Australian Dollar\\\",\\n        \\\"AWG\\\": \\\"Aruban Florin\\\",\\n        \\\"AZN\\\": \\\"Azerbaijani Manat\\\",\\n        \\\"BAM\\\": \\\"Bosnia-Herzegovina Convertible Mark\\\",\\n        \\\"BBD\\\": \\\"Barbadian Dollar\\\",\\n        \\\"BDT\\\": \\\"Bangladeshi Taka\\\",\\n        \\\"BGN\\\": \\\"Bulgarian Lev\\\",\\n        \\\"BHD\\\": \\\"Bahraini Dinar\\\",\\n        \\\"BIF\\\": \\\"Burundian Franc\\\",\\n        \\\"BMD\\\": \\\"Bermudan Dollar\\\",\\n        \\\"BND\\\": \\\"Brunei Dollar\\\",\\n        \\\"BOB\\\": \\\"Bolivian Boliviano\\\",\\n        \\\"BRL\\\": \\\"Brazilian Real\\\",\\n        \\\"BSD\\\": \\\"Bahamian Dollar\\\",\\n        \\\"BTC\\\": \\\"Bitcoin\\\",\\n        \\\"BTN\\\": \\\"Bhutanese Ngultrum\\\",\\n        \\\"BWP\\\": \\\"Botswanan Pula\\\",\\n        \\\"BYN\\\": \\\"New Belarusian Ruble\\\",\\n        \\\"BYR\\\": \\\"Belarusian Ruble\\\",\\n        \\\"BZD\\\": \\\"Belize Dollar\\\",\\n        \\\"CAD\\\": \\\"Canadian Dollar\\\",\\n        \\\"CDF\\\": \\\"Congolese Franc\\\",\\n        \\\"CHF\\\": \\\"Swiss Franc\\\",\\n        \\\"CLF\\\": \\\"Chilean Unit of Account (UF)\\\",\\n        \\\"CLP\\\": \\\"Chilean Peso\\\",\\n        \\\"CNY\\\": \\\"Chinese Yuan\\\",\\n        \\\"CNH\\\": \\\"Chinese Yuan Offshore\\\",\\n        \\\"COP\\\": \\\"Colombian Peso\\\",\\n        \\\"CRC\\\": \\\"Costa Rican Colón\\\",\\n        \\\"CUC\\\": \\\"Cuban Convertible Peso\\\",\\n        \\\"CUP\\\": \\\"Cuban Peso\\\",\\n        \\\"CVE\\\": \\\"Cape Verdean Escudo\\\",\\n        \\\"CZK\\\": \\\"Czech Republic Koruna\\\",\\n        \\\"DJF\\\": \\\"Djiboutian Franc\\\",\\n        \\\"DKK\\\": \\\"Danish Krone\\\",\\n        \\\"DOP\\\": \\\"Dominican Peso\\\",\\n        \\\"DZD\\\": \\\"Algerian Dinar\\\",\\n        \\\"EGP\\\": \\\"Egyptian Pound\\\",\\n        \\\"ERN\\\": \\\"Eritrean Nakfa\\\",\\n        \\\"ETB\\\": \\\"Ethiopian Birr\\\",\\n        \\\"EUR\\\": \\\"Euro\\\",\\n        \\\"FJD\\\": \\\"Fijian Dollar\\\",\\n        \\\"FKP\\\": \\\"Falkland Islands Pound\\\",\\n        \\\"GBP\\\": \\\"British Pound Sterling\\\",\\n        \\\"GEL\\\": \\\"Georgian Lari\\\",\\n        \\\"GGP\\\": \\\"Guernsey Pound\\\",\\n        \\\"GHS\\\": \\\"Ghanaian Cedi\\\",\\n        \\\"GIP\\\": \\\"Gibraltar Pound\\\",\\n        \\\"GMD\\\": \\\"Gambian Dalasi\\\",\\n        \\\"GNF\\\": \\\"Guinean Franc\\\",\\n        \\\"GTQ\\\": \\\"Guatemalan Quetzal\\\",\\n        \\\"GYD\\\": \\\"Guyanaese Dollar\\\",\\n        \\\"HKD\\\": \\\"Hong Kong Dollar\\\",\\n        \\\"HNL\\\": \\\"Honduran Lempira\\\",\\n        \\\"HRK\\\": \\\"Croatian Kuna\\\",\\n        \\\"HTG\\\": \\\"Haitian Gourde\\\",\\n        \\\"HUF\\\": \\\"Hungarian Forint\\\",\\n        \\\"IDR\\\": \\\"Indonesian Rupiah\\\",\\n        \\\"ILS\\\": \\\"Israeli New Sheqel\\\",\\n        \\\"IMP\\\": \\\"Manx pound\\\",\\n        \\\"INR\\\": \\\"Indian Rupee\\\",\\n        \\\"IQD\\\": \\\"Iraqi Dinar\\\",\\n        \\\"IRR\\\": \\\"Iranian Rial\\\",\\n        \\\"ISK\\\": \\\"Icelandic Króna\\\",\\n        \\\"JEP\\\": \\\"Jersey Pound\\\",\\n        \\\"JMD\\\": \\\"Jamaican Dollar\\\",\\n        \\\"JOD\\\": \\\"Jordanian Dinar\\\",\\n        \\\"JPY\\\": \\\"Japanese Yen\\\",\\n        \\\"KES\\\": \\\"Kenyan Shilling\\\",\\n        \\\"KGS\\\": \\\"Kyrgystani Som\\\",\\n        \\\"KHR\\\": \\\"Cambodian Riel\\\",\\n        \\\"KMF\\\": \\\"Comorian Franc\\\",\\n        \\\"KPW\\\": \\\"North Korean Won\\\",\\n        \\\"KRW\\\": \\\"South Korean Won\\\",\\n        \\\"KWD\\\": \\\"Kuwaiti Dinar\\\",\\n        \\\"KYD\\\": \\\"Cayman Islands Dollar\\\",\\n        \\\"KZT\\\": \\\"Kazakhstani Tenge\\\",\\n        \\\"LAK\\\": \\\"Laotian Kip\\\",\\n        \\\"LBP\\\": \\\"Lebanese Pound\\\",\\n        \\\"LKR\\\": \\\"Sri Lankan Rupee\\\",\\n        \\\"LRD\\\": \\\"Liberian Dollar\\\",\\n        \\\"LSL\\\": \\\"Lesotho Loti\\\",\\n        \\\"LTL\\\": \\\"Lithuanian Litas\\\",\\n        \\\"LVL\\\": \\\"Latvian Lats\\\",\\n        \\\"LYD\\\": \\\"Libyan Dinar\\\",\\n        \\\"MAD\\\": \\\"Moroccan Dirham\\\",\\n        \\\"MDL\\\": \\\"Moldovan Leu\\\",\\n        \\\"MGA\\\": \\\"Malagasy Ariary\\\",\\n        \\\"MKD\\\": \\\"Macedonian Denar\\\",\\n        \\\"MMK\\\": \\\"Myanma Kyat\\\",\\n        \\\"MNT\\\": \\\"Mongolian Tugrik\\\",\\n        \\\"MOP\\\": \\\"Macanese Pataca\\\",\\n        \\\"MRU\\\": \\\"Mauritanian Ouguiya\\\",\\n        \\\"MUR\\\": \\\"Mauritian Rupee\\\",\\n        \\\"MVR\\\": \\\"Maldivian Rufiyaa\\\",\\n        \\\"MWK\\\": \\\"Malawian Kwacha\\\",\\n        \\\"MXN\\\": \\\"Mexican Peso\\\",\\n        \\\"MYR\\\": \\\"Malaysian Ringgit\\\",\\n        \\\"MZN\\\": \\\"Mozambican Metical\\\",\\n        \\\"NAD\\\": \\\"Namibian Dollar\\\",\\n        \\\"NGN\\\": \\\"Nigerian Naira\\\",\\n        \\\"NIO\\\": \\\"Nicaraguan Córdoba\\\",\\n        \\\"NOK\\\": \\\"Norwegian Krone\\\",\\n        \\\"NPR\\\": \\\"Nepalese Rupee\\\",\\n        \\\"NZD\\\": \\\"New Zealand Dollar\\\",\\n        \\\"OMR\\\": \\\"Omani Rial\\\",\\n        \\\"PAB\\\": \\\"Panamanian Balboa\\\",\\n        \\\"PEN\\\": \\\"Peruvian Nuevo Sol\\\",\\n        \\\"PGK\\\": \\\"Papua New Guinean Kina\\\",\\n        \\\"PHP\\\": \\\"Philippine Peso\\\",\\n        \\\"PKR\\\": \\\"Pakistani Rupee\\\",\\n        \\\"PLN\\\": \\\"Polish Zloty\\\",\\n        \\\"PYG\\\": \\\"Paraguayan Guarani\\\",\\n        \\\"QAR\\\": \\\"Qatari Rial\\\",\\n        \\\"RON\\\": \\\"Romanian Leu\\\",\\n        \\\"RSD\\\": \\\"Serbian Dinar\\\",\\n        \\\"RUB\\\": \\\"Russian Ruble\\\",\\n        \\\"RWF\\\": \\\"Rwandan Franc\\\",\\n        \\\"SAR\\\": \\\"Saudi Riyal\\\",\\n        \\\"SBD\\\": \\\"Solomon Islands Dollar\\\",\\n        \\\"SCR\\\": \\\"Seychellois Rupee\\\",\\n        \\\"SDG\\\": \\\"South Sudanese Pound\\\",\\n        \\\"SEK\\\": \\\"Swedish Krona\\\",\\n        \\\"SGD\\\": \\\"Singapore Dollar\\\",\\n        \\\"SHP\\\": \\\"Saint Helena Pound\\\",\\n        \\\"SLE\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SLL\\\": \\\"Sierra Leonean Leone\\\",\\n        \\\"SOS\\\": \\\"Somali Shilling\\\",\\n        \\\"SRD\\\": \\\"Surinamese Dollar\\\",\\n        \\\"STD\\\": \\\"São Tomé and Príncipe Dobra\\\",\\n        \\\"SVC\\\": \\\"Salvadoran Colón\\\",\\n        \\\"SYP\\\": \\\"Syrian Pound\\\",\\n        \\\"SZL\\\": \\\"Swazi Lilangeni\\\",\\n        \\\"THB\\\": \\\"Thai Baht\\\",\\n        \\\"TJS\\\": \\\"Tajikistani Somoni\\\",\\n        \\\"TMT\\\": \\\"Turkmenistani Manat\\\",\\n        \\\"TND\\\": \\\"Tunisian Dinar\\\",\\n        \\\"TOP\\\": \\\"Tongan Paʻanga\\\",\\n        \\\"TRY\\\": \\\"Turkish Lira\\\",\\n        \\\"TTD\\\": \\\"Trinidad and Tobago Dollar\\\",\\n        \\\"TWD\\\": \\\"New Taiwan Dollar\\\",\\n        \\\"TZS\\\": \\\"Tanzanian Shilling\\\",\\n        \\\"UAH\\\": \\\"Ukrainian Hryvnia\\\",\\n        \\\"UGX\\\": \\\"Ugandan Shilling\\\",\\n        \\\"USD\\\": \\\"United States Dollar\\\",\\n        \\\"UYU\\\": \\\"Uruguayan Peso\\\",\\n        \\\"UZS\\\": \\\"Uzbekistan Som\\\",\\n        \\\"VEF\\\": \\\"Venezuelan Bolívar Fuerte\\\",\\n        \\\"VES\\\": \\\"Sovereign Bolivar\\\",\\n        \\\"VND\\\": \\\"Vietnamese Dong\\\",\\n        \\\"VUV\\\": \\\"Vanuatu Vatu\\\",\\n        \\\"WST\\\": \\\"Samoan Tala\\\",\\n        \\\"XAF\\\": \\\"CFA Franc BEAC\\\",\\n        \\\"XAG\\\": \\\"Silver (troy ounce)\\\",\\n        \\\"XAU\\\": \\\"Gold (troy ounce)\\\",\\n        \\\"XCD\\\": \\\"East Caribbean Dollar\\\",\\n        \\\"XDR\\\": \\\"Special Drawing Rights\\\",\\n        \\\"XOF\\\": \\\"CFA Franc BCEAO\\\",\\n        \\\"XPF\\\": \\\"CFP Franc\\\",\\n        \\\"YER\\\": \\\"Yemeni Rial\\\",\\n        \\\"ZAR\\\": \\\"South African Rand\\\",\\n        \\\"ZMK\\\": \\\"Zambian Kwacha (pre-2013)\\\",\\n        \\\"ZMW\\\": \\\"Zambian Kwacha\\\",\\n        \\\"ZWL\\\": \\\"Zimbabwean Dollar\\\"\\n    }\\n}\"",
+              "code": "",
+              "err": {},
+              "uuid": "8e408516-4d04-4d86-a60e-1281fdac425b",
+              "parentUUID": "e5e8394c-09f3-4c3e-80a8-c0e6029b1d81",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "babd477c-f737-4bb1-bf35-cc9dba69ab6c",
+            "62699b83-6f10-4419-8235-28daac7c3b55",
+            "3cb1f460-8a13-4bff-be72-a6ddc23d054b",
+            "8e408516-4d04-4d86-a60e-1281fdac425b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "index",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "report",
+        "reportFilename": "index",
+        "reportTitle": "API Regression Test Report",
+        "charts": "true",
+        "code": "false",
+        "inline": "true",
+        "autoOpen": "false",
+        "showPassed": "true",
+        "showFailed": "true",
+        "showPending": "true",
+        "showSkipped": "true",
+        "showHooks": "failed"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
