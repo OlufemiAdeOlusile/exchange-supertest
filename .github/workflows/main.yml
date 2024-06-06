@@ -25,7 +25,7 @@ jobs:
         docker run --name my-app \
          -e API_KEY=${{ secrets.API_KEY }} \
          -e BASE_URL=${{ secrets.BASE_URL }} \
-         -v ${{GITHUB_WORKSPACE}}/report:/app/report \
+         -v ${GITHUB_WORKSPACE}/report:/app/report \
          my-app:latest 
 
     - name: Clean up Docker
@@ -33,11 +33,14 @@ jobs:
         docker stop my-app
         docker rm my-app
 
-    - name: Create Report
-      uses: phoenix-actions/test-reporting@v8
-      id: test-report
-      if: success() || failure()
+    - name: Upload Report as Artifact
+      uses: actions/upload-artifact@v3
       with:
-        name: Generate Result
-        path: ${{GITHUB_WORKSPACE}}/report/index.json
-        reporter: mochawesome-json
+        name: test-report
+        path: ${{ github.workspace }}/report/index.json
+        retention-days: 5
+
+
+
+
+
