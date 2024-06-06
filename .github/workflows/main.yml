@@ -22,7 +22,7 @@ jobs:
 
     - name: Run Docker container and test
       run: |
-        docker run --name my-app -d \
+        docker run --name my-app \
         -e API_KEY=${{ secrets.API_KEY }} \
         -e BASE_URL=${{ secrets.BASE_URL }} \
         my-app:latest
